@@ -17,7 +17,8 @@ export default function Home() {
       <p className={styles.text}>This is a website.</p>
       <Link href='/Ninjas'>
         <a className={styles.btn}>See Ninja List.</a>
-      </Link> 
+      </Link>
+      <Link href='/material'><a>Go to material</a></Link>
     </div>
   </>
   )
